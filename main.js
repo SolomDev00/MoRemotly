@@ -183,3 +183,10 @@ $(".option").click(function () {
   });
 
  AOS.init();
+
+// Active Class
+
+$(".option").click(function () {
+  $(".option").removeClass("active");
+  $(this).addClass("active");
+});
