@@ -339,7 +339,7 @@ body .options .option.active .label {
 body .options .option.active .label .info > div {
   left: 0px;
   opacity: 1;
-  font-family: 'Tajawal-2';
+  font-family: 'Tajawal';
 }
 body .options .option:not(.active) {
   flex-grow: 1;
