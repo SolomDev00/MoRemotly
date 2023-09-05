@@ -1,18 +1,8 @@
 /* Start Globel Rules */
 
 @font-face {
-    font-family: 'Tajawal-1';
-    src: url("./Tajawal/iphone-font.ttf");
-}
-
-@font-face {
-    font-family: 'Tajawal-2';
+    font-family: 'Tajawal';
     src: url("./Tajawal/Tajawal-Regular.ttf");
-}
-
-@font-face {
-    font-family: 'Tajawal-3';
-    src: url("./Tajawal/Amiri-Regular.ttf");
 }
 
 * {
@@ -31,7 +21,7 @@ body {
     overflow-x: hidden;
     width: 100%;
     height: 100%;
-    font-family: 'Tajawal-2', sans-serif;
+    font-family: 'Tajawal', sans-serif;
     background-color: var(--dark-color);
 }
 
@@ -1015,7 +1005,7 @@ ul {
     align-items: center;
     overflow: hidden;
     height: 50vh;
-    font-family: 'Tajawal-2';
+    font-family: 'Tajawal';
     transition: 0.25s;
     margin-bottom: 25px;
 }
