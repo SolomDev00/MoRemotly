@@ -1,0 +1,83 @@
+:root {
+    --main-color: #9D4EDD;
+    --dark-color: #10002B;
+    --dark2-color: #240046;
+    --light-color: #3C096C;
+    --light2-color: #5A189A;
+    --stars-color: #7B2CBF;
+    --fonts-color: #E0AAFF;
+    --white-color: #C77DFF;
+}
+
+#home {
+    position: relative;
+}
+
+#orangeStar {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--fonts-color);
+    filter: blur(2px);
+    box-shadow: 0px 0px 8px 0px var(--fonts-color);
+}
+
+#purpleStar {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    filter: blur(2px);
+    box-shadow: 0px 0px 8px 0px var(--main-color);
+}
+
+/* Stars */
+
+#home .str1 {
+    bottom: 9%;
+    left: 12%;
+    width: 5px;
+    height: 5px;
+    animation: homeStr1 1.6s infinite ease-in-out alternate;
+}
+
+@keyframes homeStr1 {
+    from {
+        bottom: 22%;
+    }
+    to {
+        bottom: 23%;
+    }
+}
+
+#home .str2 {
+    top: 30%;
+    left: 35%;
+    animation: homeStr2 1.6s infinite ease-in-out alternate;
+}
+
+@keyframes homeStr2 {
+    from {
+        top: 22%;
+    }
+    to {
+        top: 23%;
+    }
+}
+
+#home .str3 {
+    top: 65%;
+    left: 55%;
+    width: 5px;
+    height: 5px;
+    filter: blur(2px);
+}
+
+#home .str4 {
+    top: 29%;
+    left: 90%;
+    width: 7px;
+    height: 7px;
+}
