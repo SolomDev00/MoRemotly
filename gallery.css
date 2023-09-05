@@ -253,7 +253,7 @@ body .options {
   max-width: 900px;
   width: calc(100% - 100px);
   height: 400px;
-  font-family: 'Tajawal-2';
+  font-family: 'Tajawal';
 }
 @media screen and (max-width: 718px) {
   body .options {
@@ -297,7 +297,7 @@ body .options .option {
   background-position: center;
   cursor: pointer;
   transition: 0.5s cubic-bezier(0.05, 0.61, 0.41, 0.95);
-  font-family: 'Tajawal-2';
+  font-family: 'Tajawal';
 }
 body .options .option:nth-child(1) {
   --defaultBackground: #ed5565;
