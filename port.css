@@ -101,7 +101,7 @@ body #user-button .u-icons a[href="https://twitter.com/Osorpenke"]:before
   position: absolute;
   top: -1.5rem;
   left: 50%;
-  font-family: 'Tajawal-2';
+  font-family: 'Tajawal';
   white-space: pre;
   transform: translateX(-50%);
   opacity: 0;
