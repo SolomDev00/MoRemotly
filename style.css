@@ -898,7 +898,7 @@ ul {
     background-color: var(--dark2-color);
 }
 
-/* #services .container .column .box:nth-child(1) {
+#services .container .column .box:nth-child(1) {
     border-radius: 160px 10px 10px 10px;
 }
 
@@ -908,7 +908,7 @@ ul {
 
 #services .container .column .box:nth-child(3) {
     border-radius: 10px 160px 10px 10px;
-} */
+}
 
 #services .container .column .box .title h3 {
     font-size: 1.5rem;
