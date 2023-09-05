@@ -888,7 +888,7 @@ ul {
 #services .container .column .box {
     border: 3px solid var(--dark2-color);
     width: 500px;
-    height: 250px;
+    height: 265px;
     padding: 15px 20px;
     border-radius: 12px;
     transition: 0.5s;
